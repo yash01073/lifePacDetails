@@ -1,0 +1,870 @@
+[
+  {
+    "UUID": "155842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUq",
+    "TokenId": "sampletoken",
+    "PolicyNumber": "046038952",
+    "PLC": "11",
+    "AdminSystemId": "VP",
+    "ApplicationId": null,
+    "SourceSystem": null,
+    "Role": "Policy owner",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2022-07-25T05:02:17.209+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "456.0",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "56.0",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Monthly",
+      "PremiumDueDate": "2022-07-06",
+      "DraftDueDate": 14
+    },
+    "BankDetails": {
+      "NameOnAccount": "",
+      "BankName": "Watertown",
+      "BankAccountType": "",
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "5278",
+      "display": "Bank account ending with 0016"
+    }
+  },
+  {
+    "UUID": "255842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqR",
+    "TokenId": "sampletoken2",
+    "PolicyNumber": "008761343",
+    "PLC": "001",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2023-05-12T11:29:34.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "15.35",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "56.0",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Monthly",
+      "PremiumDueDate": "2021-01-22",
+      "DraftDueDate": 22
+    },
+    "BankDetails": {
+      "NameOnAccount": "",
+      "BankName": "Watertown",
+      "BankAccountType": "",
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "5278",
+      "display": "Watertown, ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-09-22",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "Day 1 - NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "355842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "081291149",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-09T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "217.71",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "217.71",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Semi Annually",
+      "PremiumDueDate": "2024-09-17",
+      "DraftDueDate": 17
+    },
+    "BankDetails": {
+      "NameOnAccount": "Ann Bell",
+      "BankName": "Watertown",
+      "BankAccountType": "SAVINGS",
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "5278",
+      "display": "Watertown, ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-09-17",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "Day 1 - NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "455842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "0812911450",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-17T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "217.71",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "217.71",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Quarterly",
+      "PremiumDueDate": "2024-09-17",
+      "DraftDueDate": 17
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-09-17",
+      "Backdating": "N"
+    },
+    "code": "003",
+    "message": "Day 1 - NBD has PAC but no Bank"
+  },
+  {
+    "UUID": "555842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "0812911451",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-17T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": "0.0",
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": null
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-09-23",
+      "Backdating": "N"
+    },
+    "code": "001",
+    "message": "Day 0 - NBD do not have PAC and Bank info but PAC Information Required has value as 'Reviewed' from DIME"
+  },
+  {
+    "UUID": "655842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "0812911452",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-17T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": "0.0",
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": null
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-09-17",
+      "Backdating": "N"
+    },
+    "code": "002",
+    "message": "Day 0 - NBD do not have PAC and Bank info and PAC Information Required has value other than 'Reviewed' from DIME"
+  },
+  {
+    "UUID": "755842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "081291153",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-24T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "217.71",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "217.71",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Quarterly",
+      "PremiumDueDate": "2024-09-18",
+      "DraftDueDate":24
+    },
+    "BankDetails": {
+      "NameOnAccount": "Ann Bell",
+      "BankName": "Watertown",
+      "BankAccountType": "SAVINGS",
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "5278",
+      "display": "Watertown, ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-09-18",
+      "Backdating": "Y"
+    },
+    "code": "004",
+    "message": "Day 1 - NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "855842814204280338",
+    "TransactionId": "fMheciOEDFJyCZR4GkUqQ",
+    "TokenId": "sampletoken3",
+    "PolicyNumber": "081291154",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": null,
+    "SourceSystem": "PDCO",
+    "Role": "Payor",
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": "2024-08-09T07:08:35.000+00:00",
+    "PaymentDetails": {
+      "PremiumAmount": "217.71",
+      "LoanAmount": "0.0",
+      "PaymentAmount": "217.71",
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Annually",
+      "PremiumDueDate": "2024-09-17",
+      "DraftDueDate": 17
+    },
+    "BankDetails": {
+      "NameOnAccount": "Ann Bell",
+      "BankName": "Watertown",
+      "BankAccountType": "SAVINGS",
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "5278",
+      "display": "Watertown, ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-09-17",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "Day 1 - NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "1000001715267347735583307",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861130",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "578.71",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Monthly",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861131",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 15
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-08-15",
+      "Backdating": "Y"
+    },
+    "code": "001",
+    "message": "Pre-Authorized payment plan information is Reviewed"
+  },
+  {
+    "UUID": "1000001274968247703295103",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861132",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "1011.33",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Semi-Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "1000001265468246547209405",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861133",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "858.61",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861134",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "002",
+    "message": "Pre-Authorized payment plan information is Unfiled"
+  },
+  {
+    "UUID": "1000001462659510664647003",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861136",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "670.46",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Quarterly",
+      "PremiumDueDate": null,
+      "DraftDueDate": 15
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "",
+      "BankAccountType": null,
+      "BankAccountNumber": "",
+      "BankRoutingNumber": "0",
+      "display": "Account ending with "
+    },
+    "PYDDetails": {
+      "PydDate": "2024-08-15",
+      "Backdating": "Y"
+    },
+    "code": "003",
+    "message": "NBD has PAC but no Bank info"
+  },
+  {
+    "UUID": "1000001927668245974478405",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861137",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "719.44",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Semi-Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "",
+      "BankAccountType": null,
+      "BankAccountNumber": "",
+      "BankRoutingNumber": "0",
+      "display": "Account ending with "
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "003",
+    "message": "NBD has PAC but no Bank info"
+  },
+  {
+    "UUID": "1000001988868253815218703",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861141",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "596.23",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "",
+      "BankAccountType": null,
+      "BankAccountNumber": "",
+      "BankRoutingNumber": "0",
+      "display": "Account ending with "
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "003",
+    "message": "NBD has PAC but no Bank info"
+  },
+  {
+    "UUID": "1000001769168252462338305",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "46967260",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "200.00",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Quarterly",
+      "PremiumDueDate": null,
+      "DraftDueDate": 2
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-08-02",
+      "Backdating": "Y"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "1000001413768252386014708",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861149",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "4976.50",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Quarterly",
+      "PremiumDueDate": null,
+      "DraftDueDate": 2
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-08-02",
+      "Backdating": "Y"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "1000001936968253630251904",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861157",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "5000.00",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Semi-Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 2
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-08-02",
+      "Backdating": "Y"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": "1000001924159510982219606",
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861151",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": "10000.00",
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": "Annually",
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": {
+      "NameOnAccount": null,
+      "BankName": "WELLS FARGO BANK NA (ARIZONA)",
+      "BankAccountType": null,
+      "BankAccountNumber": "0016",
+      "BankRoutingNumber": "122105278",
+      "display": "WELLS FARGO BANK NA (ARIZONA), account ending with 0016"
+    },
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "004",
+    "message": "NBD has PAC and Bank info"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861152",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "001",
+    "message": "Pre-Authorized payment plan information is Reviewed"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861154",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 14
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-11-14",
+      "Backdating": "Y"
+    },
+    "code": "001",
+    "message": "Pre-Authorized payment plan information is Reviewed"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861155",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 2
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-10-02",
+      "Backdating": "Y"
+    },
+    "code": "001",
+    "message": "Pre-Authorized payment plan information is Reviewed"
+  },
+  {
+    "UUID": null,
+    "TransactionId": "12345u-089435-12345-056879",
+    "TokenId": null,
+    "PolicyNumber": "81861156",
+    "PLC": "106",
+    "AdminSystemId": "2V",
+    "ApplicationId": "12963",
+    "SourceSystem": "PDCO",
+    "Role": null,
+    "WorkItemId": null,
+    "Error": null,
+    "ErrorDetails": null,
+    "CreatedTime": null,
+    "PaymentDetails": {
+      "PremiumAmount": null,
+      "LoanAmount": null,
+      "PaymentAmount": null,
+      "ImmediatePremiumDraft": null,
+      "ImmediateLoanDraft": null,
+      "ModeOfFrequency": null,
+      "PremiumDueDate": null,
+      "DraftDueDate": 19
+    },
+    "BankDetails": null,
+    "PYDDetails": {
+      "PydDate": "2024-11-19",
+      "Backdating": "N"
+    },
+    "code": "002",
+    "message": "Pre-Authorized payment plan information is Unfiled"
+  }
+
+]

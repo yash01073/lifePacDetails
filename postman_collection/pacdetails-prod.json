@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "9d8030b6-c30c-4419-9c3e-b4290c9f7358",
+		"name": "PacDetails",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26951169"
+	},
+	"item": [
+		{
+			"name": "pr",
+			"item": [
+				{
+					"name": "aks",
+					"item": [
+						{
+							"name": "BadRequest",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://jhapplications.aks.manulife.com/pacdetails/api/v1/pacdetails",
+									"protocol": "https",
+									"host": [
+										"jhapplications",
+										"aks",
+										"manulife",
+										"com"
+									],
+									"path": [
+										"pacdetails",
+										"api",
+										"v1",
+										"pacdetails"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "liveness",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://jhapplications.aks.manulife.com/pacdetails/actuator/health/liveness",
+									"protocol": "https",
+									"host": [
+										"jhapplications",
+										"aks",
+										"manulife",
+										"com"
+									],
+									"path": [
+										"pacdetails",
+										"actuator",
+										"health",
+										"liveness"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ByPolicyNumber",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://jhapplications.aks.manulife.com/pacdetails/api/v1/pacdetails?policyNumber=046038952",
+									"protocol": "https",
+									"host": [
+										"jhapplications",
+										"aks",
+										"manulife",
+										"com"
+									],
+									"path": [
+										"pacdetails",
+										"api",
+										"v1",
+										"pacdetails"
+									],
+									"query": [
+										{
+											"key": "policyNumber",
+											"value": "046038952"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ByTransactionId",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://jhapplications.aks.manulife.com/pacdetails/api/v1/pacdetails?transactionId=fMheciOEDFJyCZR4GkUq&policyNumber=046038952",
+									"protocol": "https",
+									"host": [
+										"jhapplications",
+										"aks",
+										"manulife",
+										"com"
+									],
+									"path": [
+										"pacdetails",
+										"api",
+										"v1",
+										"pacdetails"
+									],
+									"query": [
+										{
+											"key": "transactionId",
+											"value": "fMheciOEDFJyCZR4GkUq"
+										},
+										{
+											"key": "policyNumber",
+											"value": "046038952"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ByPolicyNumberAndPLC",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "content-Type",
+										"value": "application/json",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://jhapplications.aks.manulife.com/pacdetails/api/v1/pacdetails?policyNumber=046038952&plc=11",
+									"protocol": "https",
+									"host": [
+										"jhapplications",
+										"aks",
+										"manulife",
+										"com"
+									],
+									"path": [
+										"pacdetails",
+										"api",
+										"v1",
+										"pacdetails"
+									],
+									"query": [
+										{
+											"key": "policyNumber",
+											"value": "046038952"
+										},
+										{
+											"key": "plc",
+											"value": "11"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

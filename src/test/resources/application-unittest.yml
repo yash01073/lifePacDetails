@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - unittest
+  datasource:
+    url: jdbc:mysql://localhost/my_db
+    username: user
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
+    sqlmi:
+      billing:
+        enable: false

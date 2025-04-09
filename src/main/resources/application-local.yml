@@ -1,0 +1,69 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    sqlmi:
+      billing:
+        enable: true
+        url: jdbc:sqlserver://azuse2sqlmienjd01.4f28fe35daab.database.windows.net;database=Billing;authentication=ActiveDirectoryPassword;
+        username: SVCPaymentInfo@mfcgd.com
+        password: '&e82K!B,Wqg#\rS_'
+        # DEV, TEST, UAT - url: jdbc:sqlserver://azuse2sqlmienjd01.4f28fe35daab.database.windows.net;database=Billing;authentication=ActiveDirectoryPassword;
+        # PROD url: jdbc:sqlserver://azuse2sqlmiepayp01.19fa80817360.database.windows.net;database=Billing;authentication=ActiveDirectoryPassword;
+      ptr:
+        url: jdbc:sqlserver://azuse2sqlmiinsm01.19fa80817360.database.windows.net;database=dbjhpayment;authentication=ActiveDirectoryPassword;
+        username: SVCPaymentInfo@mfcgd.com
+        password: '&e82K!B,Wqg#\rS_'
+        # DEV, TEST url: jdbc:sqlserver://azuse2sqlmiinsd01.788b5fabc331.database.windows.net;database=dbjhpayment;authentication=ActiveDirectoryPassword;
+        # UAT url: jdbc:sqlserver://azuse2sqlmiinsm01.19fa80817360.database.windows.net;database=dbjhpayment;authentication=ActiveDirectoryPassword;
+        # PROD url: jdbc:sqlserver://azuse2sqlmiinspr01.19fa80817360.database.windows.net;database=dbjhpayment;authentication=ActiveDirectoryPassword;
+  jpa:
+    properties:
+      hibernate:
+        default_schema: '"RMTEDEV1"'
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+logging:
+  level:
+    org:
+      hibernate:
+        sql: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+
+ENV_NAME: local
+
+vpasOne:
+  token:
+    url: https://apigateway-dev.mccamish.com/oauth2/token
+    clientId: M_zGqwg6Hd56DfD8ImBiWW60Lisa
+    clientSecret: S8oQEuVKQCFGS5Tc2Rl5QljdKB4a
+    clientCredentials: client_credentials
+  service:
+    url: https://apigateway-dev.mccamish.com/JH-RPA-API/1.0/
+    env: JH-UAT2
+
+apim:
+  url: https://login.microsoftonline.com/5d3e2773-e07f-4432-a630-1a0f68a28a05/oauth2/token
+  clientId: 082984d9-6f62-4622-9a55-43b936a0b2a7
+  clientSecret: nPY8nSS7w5koeIE-G~REDG3W~B~_h3m2Hl
+  clientCredentials: client_credentials
+
+awdRest:
+  url: https://jhapim.manulife.com/uat/awdrestservice/create
+  ocpApimSubscriptionKey: 3a5c502f022a4aceb6ac472c2ebcf804
+  application:
+    id: 7669085
+
+convertedPolicy:
+  url: https://jhapplications.uat.aks.manulife.com/getconvertedpolicyapi/api/v1/getPolicy?PolicyNumber=
+
+pdcoPaymentService:
+  url: https://pdcopayments.jhapps-uat.aks.manulife.com/api/v1/payment/getPacDetails
+  #https://pdcopayments.jhapps-uat.aks.manulife.com/api/v1/payment/getPacDetails
+  #http://localhost:8080/api/v1/payment/getPacDetails
+
