@@ -1,4 +1,3 @@
-/*
 package com.jh.de.pacdetails.controller;
 
 import static org.mockito.Mockito.when;
@@ -33,10 +32,9 @@ class PacSuspendControllerTest {
     @MockBean
     private PacSuspendService pacSuspendService;
 
-    */
-/**
-     * Method under test: {@link PacSuspendController#pacSuspend(PacSuspendRequest)}
-     *//*
+
+    /* Method under test: {@link PacSuspendController#pacSuspend(PacSuspendRequest)}*/
+
 
     @Test
     void testPacSuspend() throws Exception {
@@ -85,4 +83,3 @@ class PacSuspendControllerTest {
                                         + " lost\"},\"changeEffDate\":\"2020-03-01\",\"errorStatus\":\"An error occurred\"}}"));
     }
 }
-*/
